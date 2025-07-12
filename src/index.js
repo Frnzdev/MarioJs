@@ -26,7 +26,7 @@ async function getRandomBlock() {
   return "CONFRONTO";
 }
 
-async function GETtY() {
+async function getType() {
   return Math.random() < 0.5 ? "bomba" : "casco";
 }
 
@@ -93,7 +93,7 @@ async function playRaceEngine(character1, character2) {
 
       console.log(`${character1.nome} confrontou com ${character2.nome} 🥊`);
 
-      const type = await GETtY();
+      const type = await getType();
 
       await logRollResult(
         character1.nome,
