@@ -13,8 +13,11 @@ Este é um projeto simples feito em **Node.js**, que simula uma corrida entre do
 ## 🚀 Como rodar o projeto
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/Frnzdev/MarioJs.git
    cd MarioJs
    node --watch index.js
+
+   *Necessário ter node instalado na sua máquina. verifique com node --v*
    ```
